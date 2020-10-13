@@ -1,0 +1,102 @@
+.card {
+  border: none !important;
+  text-align: center !important;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-subtitle {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+.CardContainer {
+  margin: 80px 12vw 0 12vw;
+  padding-bottom: 4%;
+}
+
+.CardContainer-header {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.015em;
+}
+
+.CardContainer-subheader {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: -0.015em;
+  color: rgba(0, 0, 0, 0.8);
+  max-width: 729px;
+  margin-bottom: 30px;
+}
+
+.Card-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.Card-text {
+  max-width: 275px;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.Card-divider {
+  border-right: 1px solid #979797;
+}
+
+.Card-horizontal-divider {
+  display: none;
+}
+
+hr {
+  width: 40%;
+  border: none;
+  background-color: #c2c2c2;
+  height: 1px;
+}
+
+/* Responsive elements */
+
+@media (max-width: 768px) {
+  .CardContainer-header,
+  .CardContainer-subheader {
+    max-width: 341px;
+  }
+  .Card-horizontal-divider {
+    display: block;
+    width: 35%;
+    background-color: #c2c2c2;
+  }
+  .Card-divider {
+    border-right: none;
+  }
+  .Container-divider {
+    width: 95%;
+    height: 2px;
+    color: #979797;
+  }
+  .CardContainer {
+    margin: 0;
+    padding: 50px 20px;
+  }
+  .card {
+    margin: 30px;
+  }
+  .Card-title {
+    line-height: 1.2em;
+  }
+  .CardContainer-header {
+    padding-left: 9px;
+  }
+}

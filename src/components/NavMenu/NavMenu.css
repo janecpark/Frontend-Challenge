@@ -1,0 +1,67 @@
+.nav-btn {
+  height: 50px !important;
+  margin-right: 10vw !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  line-height: 35px !important;
+  text-align: center !important;
+  font-style: normal !important;
+  background-color: #1e9ef5 !important;
+  min-width: 160px !important;
+  color: white !important;
+  border-radius: 2px !important;
+}
+
+.nav-link {
+  margin-right: 5vw !important;
+  width: 120px;
+  text-align: center !important;
+  font-weight: normal !important;
+  letter-spacing: -0.015em !important;
+  align-items: center !important;
+  font-size: 15px !important;
+  line-height: 35px !important;
+}
+
+.navbar {
+  height: 60px !important;
+  left: 0px !important;
+  top: -1px !important;
+  padding-left: 12vw !important;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-toggler {
+  border-color: transparent !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(30, 158, 245)' stroke-width='4' stroke-linecap='square' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+  transform: scaleX(1.6);
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+
+.active {
+  font-weight: 700 !important;
+  border-bottom: 3px solid #007ed2;
+  line-height: 2.5em !important;
+}
+
+/* Responsive elements */
+
+@media (min-width: 768px) and (max-width: 1111px) {
+  .nav-link {
+    margin-right: 2vw !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-btn {
+    margin: 5px !important;
+  }
+  .navbar {
+    padding: 0 !important;
+  }
+}
