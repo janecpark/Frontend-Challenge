@@ -1,6 +1,5 @@
 .Main {
-  height: calc(100vh - 140px);
-  border-bottom: 1px solid #e5e5e5;
+  height: calc(100vh);
   margin: 100px 12vw 0 12vw;
   border-bottom: 2px solid #c2c2c2;
 }
